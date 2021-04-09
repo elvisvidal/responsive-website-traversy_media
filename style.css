@@ -4,7 +4,9 @@
   --primary-color: #047aed;
   --secondary-color: #1c3fa8;
   --dark-color: #002240;
-  --ligh-color: #f4f4f4;
+  --light-color: #f4f4f4;
+  --success-color: #5cb85c;
+  --error-color: #d9534f;
 }
 
 /* RESET */
@@ -42,6 +44,12 @@ p {
 
 img {
   width: 100%;
+}
+
+code, pre {
+  background: #333;
+  color: #fff;
+  padding: 10px;
 }
 
 /* Navbar */
@@ -231,10 +239,6 @@ img {
   padding-bottom: 5px;
   margin-bottom: 5px;
   border-bottom: 1px #ccc solid;
-}
-
-.docs-main nav a {
-  color: #333;
 }
 
 /* Tablets and under */
